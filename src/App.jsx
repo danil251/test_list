@@ -6,7 +6,7 @@ import ChangeUser from './pages/ChangeUser/ChangeUser';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MainPage/>}/>
+      <Route path="" element={<MainPage/>}/>
       <Route path="/change-user/:id" element={<ChangeUser/>}/>
       <Route path="/add-user" element={<ChangeUser/>}/>
     </Routes>
