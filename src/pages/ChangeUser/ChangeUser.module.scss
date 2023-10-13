@@ -1,0 +1,29 @@
+.form {
+  margin: 50px auto;
+  width: 25%;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 30px 20px;
+  @media screen and (max-width: 1450px){
+    width: 50%;
+  }
+  @media screen and (max-width: 800px){
+    width: 80%;
+  }
+  .btnWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@media screen and (max-width: 400px) {
+  body {
+    zoom: 0.8;
+  }
+}
